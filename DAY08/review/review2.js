@@ -1032,4 +1032,4 @@ const data = [{"fullname":"Loren Wass","department":"Legal","gender":"Female","l
 const answer5 = data.map((x, i) => {
   x.creditcard = [...x.creditcard].map((x, i) => (x.creditcard.lenght - 4 ? x : "*"));
 });
-console.log(anser5);
+console.log(answer5);
