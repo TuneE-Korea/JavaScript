@@ -1,0 +1,30 @@
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item > img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.item > .info {
+  display: flex;
+  flex-direction: column;
+  /* gap: 3px; */
+}
+
+.itme > .info > .brand {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.itme > .info > .name {
+  font-size: 13px;
+}

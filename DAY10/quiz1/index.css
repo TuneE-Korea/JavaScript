@@ -1,0 +1,28 @@
+.container {
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin: 0 auto
+}
+.profilecard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #aaa4a4;
+  border-radius: 9999px;
+}
+.profilecard > span {
+  width: 100px;
+  margin: o auto;
+}
