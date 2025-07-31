@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.reset {
+  width: 150px;
+}

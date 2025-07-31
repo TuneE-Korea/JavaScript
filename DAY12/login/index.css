@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.check_duplic {
+  border-radius: 15px;
+  border: none;
+  margin-left: 5px;
+}
+
+.id_demand,
+.pwd_demand_box > span {
+  font-size: 10px;
+}
