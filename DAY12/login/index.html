@@ -6,21 +6,31 @@
   <title>Login</title>
   <script src="index.js" defer></script>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="../../reset.css">
 </head>
 <body>
   <div class="container">
-    <h2 class="request">회원가입 정보를 입력해주세요👀</h2>
+    <section class="title">
+      <h1>회원가입</h1>
+    </section>
+    <h2 class="request">회원가입 정보를 <br> 입력해주세요👀</h2>
     <div class="id_box">
-      <input class="id" type="text">
-      <button class="check_duplic">중복확인</button>
-      <div class="id_demand">✔ 6~20자 내외</div>
+      <div class="id_line">
+        <input class="id" type="text" placeholder="아이디를 입력해 주세요">
+        <button class="check_duplic" disabled>
+          <span>중복확인</span>
+        </button>
+      </div>
+      <span class="id_demand1">✔ 영문</span>
+      <span class="id_demand2">✔ 숫자</span>
+      <span class="id_demand3">✔ 6~20자 내외</span>
     </div>
     <div class="pwd_box">
-      <input class="pwd" type="text" placeholder="비밀번호를 입력해 주세요">
+      <input class="pwd" type="password" placeholder="비밀번호를 입력해 주세요">
       <div class="pwd_demand_box">
-        <span class="pwd_demand num1">✔ 숫자</span>
-        <span class="pwd_demand num2">✔ 특수문자(!@#)</span>
-        <span class="pwd_demand num3">✔ 8~20자 내외</span>
+        <span class="pwd_demand1">✔ 숫자</span>
+        <span class="pwd_demand2">✔ 특수문자(!@#)</span>
+        <span class="pwd_demand3">✔ 8~20자 내외</span>
       </div>
       
     </div>

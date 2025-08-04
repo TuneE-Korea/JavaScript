@@ -1,15 +1,48 @@
 .container {
+  width: fit-content;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: start;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+h1, 
+h2 {
+  font-weight: bold !important;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid black; /* 두께, 스타일, 색상 */
+  padding-bottom: 10px; /* 텍스트와 선 사이 간격 */
+}
+.id_line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 .check_duplic {
-  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+  border-radius: 25px;
   border: none;
   margin-left: 5px;
+  background-color: #F2F2F2;
+  color: #999999;
 }
-
-.id_demand,
+.check_duplic > span {
+  padding: 5px;
+}
+.check_duplic > span,
+.id_demand1,
+.id_demand2,
+.id_demand3,
 .pwd_demand_box > span {
-  font-size: 10px;
+  font-size: 8px;
 }
